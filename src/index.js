@@ -29,9 +29,9 @@ const ChatBot = () => {
                 return;
             }
 
-            const CHATGPT_API_KEY = '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'
+            const CHATGPT_API_KEY = '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'
             const response = await axios.post('https://api.openai.com/v1/engines/text-davinci-003/completions', {
-                prompt: `Dê me uma receita para ${messageText}`,
+                prompt: `Pegue uma receita para ${messageText}`,
                 max_tokens: 2500,
                 temperature: 0.2,
                 n: 1

@@ -5,14 +5,12 @@ https://reactnative.dev/docs/getting-started
 
 ## References Videos:
 https://www.youtube.com/watch?v=XOnKpBCtrOM
-
-[!IMPORTANT]
-
 ## Expo SDKs:
 https://docs.expo.dev/versions/latest/sdk/safe-area-context/
+
 npx expo install react-native-safe-area-context
 
 ## Node Packages:
--npm install react-native-gifted-chat
--npm install axios
+npm install react-native-gifted-chat
 
+npm install axios
