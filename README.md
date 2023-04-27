@@ -9,7 +9,7 @@ Propósito: &#129297; Entender o uso dos componentes do React-Native e assim usa
 
 Imagem do Projeto:
 
-![Imagem da conversa onde uma receita foi pedida pelo usuário](../assests/food-bot-chat.png)
+![Imagem da conversa onde uma receita foi pedida pelo usuário](/assets/food-bot-chat.png)
 
 ## React-Native Documentation:
 <https://reactnative.dev/docs/getting-started>

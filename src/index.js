@@ -29,7 +29,7 @@ const ChatBot = () => {
                 return;
             }
 
-            const CHATGPT_API_KEY = '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'
+            const CHATGPT_API_KEY = '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'
             const response = await axios.post('https://api.openai.com/v1/engines/text-davinci-003/completions', {
                 prompt: `Pegue uma receita para ${messageText}`,
                 max_tokens: 2500,
@@ -66,16 +66,18 @@ const ChatBot = () => {
         <SafeAreaView style={{ flex:1 }}>
             <View
                 style={{
-                    backgroundColor: '#F5F5F5',
-                    padding: 10,
+                    backgroundColor: '#2F15D4',
+                    padding: 20,
+                    borderBottomRightRadius: 10,
+                    borderBottomLeftRadius: 10,
                     alignItems: 'center',
                     justifyContent: 'center',
-                    borderBottomWidth: 1,
                     marginBottom: 5
                 }}
             >
                 <Text style={{
-                    fontSize: 32,
+                    fontSize: 30,
+                    color: 'white',
                     fontWeight: 'bold'
                 }}>
                     Bot de Receitas
